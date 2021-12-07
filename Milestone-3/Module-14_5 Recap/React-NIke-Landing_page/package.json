@@ -1,0 +1,15 @@
+{
+  "name": "react-nike-landing_page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "node-sass assets/sass/main.scss assets/css/main.css --watch"
+  },
+  "author": "EMon Sheikh",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}

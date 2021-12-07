@@ -1,0 +1,263 @@
+/* ------------------------
+    Author : Emon-Sheikh
+---------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1190px;
+  margin: auto;
+}
+/* Repeat Classes */
+.color-1 {
+  color: #ffffff;
+  background: rgb(0, 212, 255);
+  background: linear-gradient(
+    80deg,
+    rgba(0, 212, 255, 1) 0%,
+    rgba(252, 116, 62) 27%,
+    rgb(253, 79, 48) 100%
+  );
+  padding: 1.5rem 4rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-radius: 4rem;
+}
+.display-column {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.d-flex-justify-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* Repeat Classes */
+/* hero Area Start */
+.hero_wrapper {
+  background-color: #ffffff;
+}
+.hero_main {
+  height: 100vh;
+  padding-top: 15rem;
+}
+.hero_content h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #575757;
+  text-transform: uppercase;
+  line-height: 4.5rem;
+}
+.hero_content span {
+  color: #fb8c47;
+}
+.hero_content p {
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 2.2rem;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  text-align: justify;
+  color: #828282;
+}
+.hero_img img {
+  width: 100%;
+}
+/* hero Area End */
+/* About Area Start */
+.about_wrapper {
+  background-image: url("../Images/about/about-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about_main {
+  height: 100vh;
+  margin-top: 20rem;
+}
+.about_img img {
+  margin-top: 10rem;
+  margin-left: 10rem;
+  width: 35rem;
+}
+.about_content {
+  max-width: 50rem;
+  text-align: left;
+}
+.about_content h2 {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  color: #707070;
+  font-weight: 700;
+}
+.about_content p {
+  font-size: 1.4rem;
+  color: #515052;
+  font-weight: 600;
+  line-height: 2.5rem;
+  margin-bottom: 5rem;
+}
+/* About Area End */
+/* Recipe Title Start */
+.recipe_wrapper {
+  height: 100vh;
+}
+.recipe_title {
+  height: 40vh;
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.recipe_title h2 {
+  margin-bottom: 2rem;
+  color: #676767;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.recipe_title p {
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-align: center;
+  color: #252525;
+  line-height: 2.5rem;
+  letter-spacing: 0.07rem;
+}
+/* Recipe Title End */
+/* Recipe Box Start */
+.recipe_main {
+  height: 70vh;
+  margin-top: 1rem;
+}
+.recipe_main .box {
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 2rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 2rem;
+  margin-left: 5%;
+}
+.recipe_main :nth-child(1) {
+  margin-left: 0;
+}
+.recipe_main .box img {
+  width: 100%;
+}
+.recipe_main .box h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  color: #18191f;
+  margin-top: 3rem;
+}
+.recipe_main .box p {
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+  color: #18191f;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+/* Recipe Box End */
+/* Site Number Area Start */
+.site_number_wrapper {
+  height: 20vh;
+  margin-bottom: 6rem;
+}
+.site_number_main {
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 1.5rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  height: 20vh;
+  margin-top: 20rem;
+}
+.sites_section span {
+  color: #18191f;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 6rem;
+}
+.sites_section p {
+  color: #a8a8ab;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+/* Site Number Area End */
+/* Footer Area End */
+.footer_wrapper {
+  background-color: #0b0d17;
+  margin-top: 10rem;
+}
+.main_footer {
+  color: #fff;
+  height: 30vh;
+}
+.main_footer h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.main_footer span {
+  color: #fb984c;
+}
+.main_footer p {
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 2.5rem;
+  text-align: center;
+}
+.footer_wrapper .copy_right {
+  color: rgb(223, 198, 198);
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+/* Footer Area End */
+/* Media Query For Bigger Device*/
+@media only screen and (min-width: 1400px) {
+  .about_main {
+    height: 80vh;
+    margin-top: 15rem;
+  }
+  .recipe_main {
+    height: 50vh;
+  }
+  .recipe_title {
+    height: 25vh;
+    margin-top: 5rem;
+  }
+  .hero_main {
+    height: 80vh;
+    padding-top: 15rem;
+  }
+  .recipe_wrapper {
+    height: 80vh;
+  }
+  .site_number_main {
+    margin-top: 10rem;
+  }
+  .about_img img {
+    margin-top: 14rem;
+    width: 40rem;
+  }
+}

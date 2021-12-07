@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Common</title>
+</head>
+<body>
+    <p id="clicking-method"></p>
+    <input id="input-field" type="text">
+    <button id="update-btn">update</button>
+    <button onclick="clickBtn()">Click Here</button>
+    <button id="event-handle">Direct Sumon Bhai</button>
+    <script>
+        // using function
+        function clickBtn() {
+           document.getElementById('clicking-method').innerText = 'hlw'
+        }
+        // direct
+        document.getElementById('event-handle').addEventListener('click', function () {
+            document.getElementById('clicking-method').innerText = 'direct under the direct';
+            document.body.style.background = 'red'
+        })
+        // direct another
+        document.getElementById('update-btn').addEventListener('click', function () {
+            const nameField = document.getElementById('input-field');
+            document.getElementById('clicking-method').innerText = nameField.value
+            nameField.value = '';
+        })
+    </script>
+</body>
+</html>
+
+
+           document.getElementById('comment_container').innerText = commentText.value;
+           commentText.value = '';

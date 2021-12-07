@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble Handler</title>
+</head>
+<body>
+    <h1>Event bubble Handler</h1>
+    <section id="section-container">
+        <h4>Bubble list</h4>
+        <ul id="list-container">
+            <li class="item">Lorem, ipsum.</li>
+            <li id="second-item" class="item">Eligendi, molestiae.</li>
+            <li class="item">Culpa, quia.</li>
+            <li class="item">Fuga, dolores!</li>
+            <li class="item">Magni, ad.</li>
+            <li class="item">Dolorum, accusantium!</li>
+        </ul>
+    </section>
+
+    <script>
+        document.getElementById('second-item').addEventListener('click', function (event) {
+            console.log('Clicked me second li');
+            event.stopImmediatePropagation();
+        })
+        document.getElementById('second-item').addEventListener('click', function () {
+            console.log('Clicked me second li');
+        })
+        document.getElementById('second-item').addEventListener('click', function () {
+            console.log('Clicked me second li');
+        })
+        document.getElementById('second-item').addEventListener('click', function () {
+            console.log('Clicked me second li');
+        })
+        document.getElementById('second-item').addEventListener('click', function () {
+            console.log('Clicked me second li');
+        })
+        // ul
+        document.getElementById('list-container').addEventListener('click', function () {
+            console.log('Clicked me parent ul');
+        })
+        // section container
+        document.getElementById('section-container').addEventListener('click', function () {
+            console.log('Clicked me parent section container');
+        })
+    </script>
+</body>
+</html>

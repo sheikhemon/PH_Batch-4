@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comment</title>
+</head>
+<body>
+    <h1>Add your comment please</h1>
+    <section>
+        <h3>your comments</h3>
+        <div id="comment_container">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum tenetur perferendis quisquam doloremque natus modi, quis deserunt delectus libero officiis? Qui rem corrupti enim quas perferendis, porro minima repudiandae atque?</p>
+            <p>Est, commodi modi voluptatum nulla deleniti facere veniam eum ad, aliquid iure et cumque maiores dolore laborum architecto dignissimos aut? Excepturi, dolores? Distinctio in, maxime quam animi pariatur blanditiis et!</p>
+            <p>Ipsam dignissimos itaque molestiae eveniet voluptates debitis est molestias voluptatibus quis eius quidem, nihil tenetur. Dicta, voluptatum accusamus soluta illum obcaecati quae assumenda, dolor dignissimos voluptatibus harum eos ullam quam.</p>
+        </div>
+        <div>
+            <textarea name="" id="new-text" cols="30" rows="10"></textarea> <br>
+            <button id="btn-comment">post</button>
+        </div>
+    </section>
+    
+    <script>
+        // 1. add button even handler 
+       document.getElementById('btn-comment').addEventListener('click', function () {
+            //2. get user comment
+            const commentText = document.getElementById('new-text');
+            const userComment = commentText.value;
+            commentText.value = ''; // clean comment
+            // 3. create comment paragraph 
+            const newComment = document.createElement('p');
+            newComment.innerText = userComment;
+            // 4. append the comment
+            const commentContainer = document.getElementById('comment_container');
+            commentContainer.appendChild(newComment); 
+
+       })
+    </script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Tag</title>
+    <link rel="stylesheet" href="style/nab.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="semantic.html">Semantic</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+        <h1>Montu mamar cayer dokan</h1>
+    </header>
+    <form action="">
+        <p>Name : <input type="text" name="name" placeholder="Write your text" id=""></p>
+        <p>E-mail : <input type="email" name="email" placeholder="Enter your email" id=""></p>
+        <p>Password : <input type="password" name="password" placeholder="password" id=""></p>
+        <fieldset>
+            <legend>Montu Mamar Tea</legend>
+            <p>
+                <label for="blackTea">
+                    <input type="radio" name="tea"  id="blackTea"> Black Tea
+                </label>
+            </p>
+            <p>
+                <label for="GreenTea">
+                    <input type="radio" name="tea"  id="GreenTea"> Green Tea
+                </label>
+            </p>
+            <p>
+                <label for="RedTea">
+                    <input type="radio" name="tea"  id="RedTea"> Red Tea
+                </label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Best Offer</legend>
+            <p>
+                <label for="blackTea">
+                    <input type="checkbox" name="Offer"  id="blackTea"> Black Tea 10%
+                </label>
+            </p>
+            <p>
+                <label for="GreenTea">
+                    <input type="checkbox" name="Offer"  id="GreenTea">Green Tea 10%
+                </label>
+            </p>
+            <p>
+                <label for="RedTea">
+                    <input type="checkbox" name="Offer"  id="RedTea"> Red Tea 10%
+                </label>
+            </p>
+        </fieldset>
+        <p>
+            Special Instruction Details Here <br>
+            <textarea name="instruction" id="" cols="30" rows="10"></textarea>
+        </p>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>

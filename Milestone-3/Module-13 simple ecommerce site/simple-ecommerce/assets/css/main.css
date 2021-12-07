@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Header area start */
+header .bg-nav{
+    background-color: #8bd3dd;
+    padding: 20px 0;
+}
+header nav ul li{
+    padding-left: 10px!important;
+}
+header nav ul li a{
+    font-size: 16px;
+    font-weight: 700;
+    color: #f3d2c1!important;
+    background-color: #6C757D;
+    padding: 8px 20px!important;
+    border-radius: 5px;
+}
+header nav ul li a:hover{
+    color: black!important;
+    background-color: #ffffff;
+}
+/* slider area start */
+.slider__main{
+    background-color: #8bd3dd;
+}
+.slider__main h1{
+    font-size: 56px;
+    /* margin-top: 15%!important; */
+}
+.slider__main p{
+    font-size: 16px;
+    color: #4E4E4E;
+    line-height: 26px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+.slider__main .price{
+    margin-top: 20px;
+    font-size: 41px;
+    color: #FF136F;
+}
+.slider__main button{
+    margin-top: 20px;
+    padding: 8px 20px;
+}
+.slider__main .active{
+    margin-left: 10px;
+}
+.slider__main .previous{
+    color: #4E4E4E;
+    font-size: 100px;
+    font-weight: 800;
+}
+.carousel-section{
+    border-radius: 15px;
+}
+/*Responsive For All Devices Media Query */
+/* Mobile Responsive */
+@media only screen and (max-width: 668px){
+    body{
+        overflow-x: hidden;
+    }
+    /* Header area start */
+    header nav{
+        position: fixed;
+        top: 0;
+    }
+    header nav ul li {
+        padding: 10px 0;
+    }
+    header .carousel-section {
+        margin-top: 100px;
+        border-radius: 0px;
+    }
+    header .carousel-section h1{
+        font-size: 35px;
+    }
+    /* Header area end */
+    /* catagories area start */
+    /* catagories area end */
+    /* subscribe area start*/
+    #subscribe input{
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+    #subscribe a{
+        margin-left: 120px;
+    }
+    /* subscribe area end*/
+}
+/* Tablet Responsive */
+@media only screen and (min-width: 668px) and (max-width: 992px){
+    /* header area start */
+    header nav ul li {
+        padding: 10px 0;
+    }
+    /* header area end */
+}

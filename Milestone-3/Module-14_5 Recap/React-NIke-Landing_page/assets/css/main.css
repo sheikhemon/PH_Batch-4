@@ -1,0 +1,64 @@
+/*===============================================================================
+
+    Theme Name: React Nike - Business Consulting HTML5 landing Page
+    Author: Emon Sheikh
+    Support: skemonalom@gmail.com
+    Description:  Agency is a business multi-Purpose HTML5 Landing Page 
+
+     CSS INDEX
+    ===================
+
+    01. Theme default 	
+    02. Header area
+    03. Hero area	
+    04. sells area
+    05. Services area	
+    06. Footer area
+
+===============================================================================*/
+/*=========================
+        Common CSS
+===========================*/
+::after,
+::before,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  overflow-x: hidden; }
+
+a, :active, :focus {
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+/*=========================
+        Header CSS
+===========================*/
+/*=========================
+        Hero CSS
+===========================*/
+/*=========================
+        Sells CSS
+===========================*/
+/*=========================
+        Footer CSS
+===========================*/
+/*==================================================
+                Media Query
+====================================================*/
+/*=========================
+        Mobile Devices
+===========================*/
+/*=========================
+        Tablet Devices
+===========================*/
+/*=========================
+        Larger Query
+===========================*/

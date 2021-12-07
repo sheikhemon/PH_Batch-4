@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <!-- Google Fonts Link -->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="assets/css/font-awesome.css">
+    <!-- Bootstrap-5 Link -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Animation Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- Main CSS Link -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!-- Website Title -->
+    <title>Simple E-commerce Site</title>
+</head>
+<body>
+    <!-- Header area start -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-nav">
+            <div class="container">
+              <a class="navbar-brand" href="#"> <img src="assets/images/logo.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#catagories">Catagories</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#shoes">Shoes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#backpack">Backpack</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#subscribe">Subscribe</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <!-- Image Slider -->
+          <section class="container my-5 p-5 slider__main animate__animated animate__fadeInDown animate__delay-.7s carousel-section">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row gy-5 d-flex align-items-center">
+                    <div class="col-lg-7">
+                      <h1 class="fw-bold animate__animated animate__fadeInLeft 
+                      animate__delay-1s">Mi LED TV 4A PRO 32</h1>
+                      <p class="animate__animated animate__fadeInBottomLeft animate__delay-1s">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                      <p class="text-secondary fs-2 fw-bold price animate__animated animate__fadeInBottomLeft animate__delay-1s">$1280</p>
+                      <button type="button" class="btn btn-secondary animate__animated animate__fadeInBottomLeft animate__delay-1s">Buy Now <i class="fas fa-arrow-right active"></i></button>
+                    </div>
+                    <div class="col-lg-5">
+                      <img src="assets/images/banner-images/tv.png" class="d-block w-100  animate__animated animate__fadeInRight animate__delay-1s" alt="Banner Image">
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row gy-5 d-flex align-items-center">
+                    <div class="col-lg-7">
+                      <h1 class="fw-bold animate__animated animate__fadeInLeft 
+                      animate__delay-1s">Cool Dude Headphone</h1>
+                      <p class="animate__animated animate__fadeInBottomLeft animate__delay-1s">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                      <p class="text-secondary fs-2 fw-bold price animate__animated animate__fadeInBottomLeft animate__delay-1s">$1000</p>
+                      <button type="button" class="btn btn-secondary animate__animated animate__fadeInBottomLeft animate__delay-1s">Buy Now <i class="fas fa-arrow-right active"></i></button>
+                    </div>
+                    <div class="col-lg-5">
+                      <img src="assets/images/banner-images/headphone.png" class="d-block w-100  animate__animated animate__fadeInRight animate__delay-1s" alt="Banner Image">
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row gy-5 d-flex align-items-center">
+                    <div class="col-lg-7">
+                      <h1 class="fw-bold animate__animated animate__fadeInLeft 
+                      animate__delay-1s">X-BOX For your Living room</h1>
+                      <p class="animate__animated animate__fadeInBottomLeft animate__delay-1s">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                      <p class="text-secondary fs-2 fw-bold price animate__animated animate__fadeInBottomLeft animate__delay-1s">$1100</p>
+                      <button type="button" class="btn btn-secondary animate__animated animate__fadeInBottomLeft animate__delay-1s">Buy Now <i class="fas fa-arrow-right active"></i></button>
+                    </div>
+                    <div class="col-lg-5">
+                      <img src="assets/images/banner-images/xbox.png" class="d-block w-100  animate__animated animate__fadeInRight animate__delay-1s" alt="Banner Image">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon previous" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon next" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </section>
+          <!-- image slider end -->
+    </header>
+    <!-- header area end -->
+    <!-- main area start -->
+    <main>
+      <!-- catagories area start -->
+      <section class="container p-0 bg-white" id="catagories">
+          <div class="row">
+            <h2 class="font-bold py-3">Catagories</h2>
+            <div class="col-lg-4">
+              <div class="watch__area d-flex justify-content-around align-items-center bg-primary border rounded-3 shadow py-3">
+                <h2 class="text-white">Watch</h2>
+                <img class="w-25" src="assets/images/categories/watch.png" alt="">
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="bag__area d-flex justify-content-around align-items-center bg-secondary border rounded-3 shadow py-3">
+                <h2 class="text-white">Bag</h2>
+              <img class="w-25" src="assets/images/categories/bag.png" alt="">
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="shoes__area d-flex justify-content-around align-items-center bg-success border rounded-3 shadow py-3">
+                <h2 class="text-white">Shoes</h2>
+              <img class="w-25" src="assets/images/categories/shoes.png" alt="">
+              </div>
+            </div>
+          </div>
+      </section>
+      <!-- catagories area end -->
+      <section class="my-5" style="background-color: #8bd3dd;">
+        <div class="container py-5">
+          <!-- shoes area start -->
+          <div class="shoes" id="shoes">
+            <div class="title d-flex justify-content-between align-items-center pt-3 pb-3">
+              <h2 class="fw-bold text-white">Shoes</h2>
+              <a href="" class="text-dark fs-6 fw-bold text-decoration-none">See All</a>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+              <div class="col-lg-4">
+                <div class="card h-100 border-0">
+                  <img src="assets/images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                  <div class="card-body text-center">
+                    <h5 class="card-title fs-4 fw-bold">Reebok Dart Men’s Shoes</h5>
+                    <p class="card-text text-muted mt-3">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                    <p class="text-secondary fs-2 fw-bold price p-0">$1280</p>
+                  </div>
+                  <div class="card-footer border-0 text-center bg-white mb-3">
+                        <button type="button" class="btn btn-dark fw-bold">Buy Now <i class="fas fa-arrow-right active ms-2"></i></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card h-100 border-0">
+                  <img src="assets/images/shoes/shoe-2.png" class="card-img-top" alt="...">
+                  <div class="card-body text-center">
+                    <h5 class="card-title fs-4 fw-bold">Reebok Pump</h5>
+                    <p class="card-text text-muted mt-3">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                    <p class="text-secondary fs-2 fw-bold price p-0">$700</p>
+                  </div>
+                  <div class="card-footer border-0 text-center bg-white mb-3">
+                        <button type="button" class="btn btn-dark fw-bold">Buy Now <i class="fas fa-arrow-right active ms-2"></i></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card h-100 border-0">
+                  <img src="assets/images/shoes/shoe-3.png" class="card-img-top" alt="...">
+                  <div class="card-body text-center">
+                    <h5 class="card-title fs-4 fw-bold">Reebok All Terrain</h5>
+                    <p class="card-text text-muted mt-3">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                    <p class="text-secondary fs-2 fw-bold price p-0">$655</p>
+                  </div>
+                  <div class="card-footer border-0 text-center bg-white mb-3">
+                        <button type="button" class="btn btn-dark fw-bold">Buy Now <i class="fas fa-arrow-right active ms-2"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- shoes area end -->
+          <!-- backpack area start -->
+          <div class="backpack my-5 pt-5" id="backpack">
+            <div class="title d-flex justify-content-between align-items-center pt-3 pb-3">
+              <h2 class="fw-bold text-white">Backpack</h2>
+              <a href="" class="text-dark fs-6 fw-bold text-decoration-none">See All</a>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+              <div class="col-lg-4">
+                <div class="card h-100 border-0">
+                  <img src="assets/images/bags/bag-1.png" class="card-img-top" alt="...">
+                  <div class="card-body text-center">
+                    <h5 class="card-title fs-4 fw-bold">Red Bags</h5>
+                    <p class="card-text text-muted mt-3">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                    <p class="text-secondary fs-2 fw-bold price p-0">$520</p>
+                  </div>
+                  <div class="card-footer border-0 text-center bg-white mb-3">
+                        <button type="button" class="btn btn-dark fw-bold">Buy Now <i class="fas fa-arrow-right active ms-2"></i></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card h-100 border-0">
+                  <img src="assets/images/bags/bag-2.png" class="card-img-top" alt="...">
+                  <div class="card-body text-center">
+                    <h5 class="card-title fs-4 fw-bold">Blue Bags</h5>
+                    <p class="card-text text-muted mt-3">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                    <p class="text-secondary fs-2 fw-bold price p-0">$680</p>
+                  </div>
+                  <div class="card-footer border-0 text-center bg-white mb-3">
+                        <button type="button" class="btn btn-dark fw-bold">Buy Now <i class="fas fa-arrow-right active ms-2"></i></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card h-100 border-0">
+                  <img src="assets/images/bags/bag-3.png" class="card-img-top" alt="...">
+                  <div class="card-body text-center">
+                    <h5 class="card-title fs-4 fw-bold">Black Bags</h5>
+                    <p class="card-text text-muted mt-3">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                    <p class="text-secondary fs-2 fw-bold price p-0">$600</p>
+                  </div>
+                  <div class="card-footer border-0 text-center bg-white mb-3">
+                        <button type="button" class="btn btn-dark fw-bold">Buy Now <i class="fas fa-arrow-right active ms-2"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- shoes area end -->
+          </div>
+      </section>
+      <!--  catagories area end -->
+      <!-- Subscribe area Start -->
+      <section class="container mb-5 rounded d-flex justify-content-center align-items-center" style="background-color: #8bd3dd; height: 300px;" id="subscribe">
+        <div class="subscribe">
+          <h2 class="text-center">LET'S STAY IN TOUCH</h2>
+          <p class="text-center">Get updates on sales specials and more</p>
+          <input type="text" placeholder="Enter your email" class="border-0 py-2 px-5 text-center">
+          <a href="index.html" class="text-decoration-none bg-dark text-white fw-bold" style="padding:9.5px 25px">Send</a>
+        </div>
+      </section>
+      <!-- Subscribe area End -->
+    </main>
+    <!-- main area end -->
+    <!-- footer area start -->
+    <footer class="text-center">
+      <p><small>&copy; emon-sheikh All Rights Reserved</small></p>
+    </footer>
+    <!-- footer area end -->
+
+    <!-- Custom JS Link Here -->
+    <!-- Bootstrap-5 Link -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- Font Awesome Link -->
+    <script src="assets/js/font-awesome.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Element</title>
+    <style>
+        ul:nth-child(2n){
+            color: blue;
+        }
+        p::before{
+            content: 'i love u';
+        }
+    </style>
+</head>
+<body>
+    <h1>This is normal</h1>
+    <ul>
+        <li>bacca kacca -1</li>
+        <li>bacca kacca -2</li>
+        <li>bacca kacca -3</li>
+        <li>bacca kacca -4</li>
+        <li>bacca kacca -5</li>
+    </ul>
+    <p>lorem5</p>
+    <p>lorem5</p>
+    <p>lorem5</p>
+    <p>lorem5</p>
+</body>
+</html>

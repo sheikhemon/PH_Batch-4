@@ -1,0 +1,15 @@
+{
+  "name": "honda-cbr-landing_page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass assets/sass/main.scss assets/css/main.css --watch"
+  },
+  "author": "\"Emon-Sheikh\"",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
